@@ -2,9 +2,9 @@
 DataScience Assignments
 
 
-*Practice Checkout/pull - git pull https://github.com/abchiSuriamoorthy/Assignments.git
+*Practice Checkout/pull - git pull https://github.com/PreethiSuriamoorthy/Assignments.git
 
-*Practice Checkin/push - https://github.com/abchiSuriamoorthy/Assignments.git
+*Practice Checkin/push - https://github.com/PreethiSuriamoorthy/Assignments.git
 
 
 ### change directory
@@ -32,13 +32,13 @@ Switched to a new branch 'master'
 
 ### issue a pull request (checkout from hub) 
 aaa@bbb ~/documents/DataScience (master)
-$ git pull https://github.com/abchiSuriamoorthy/Assignments.git
+$ git pull https://github.com/PreethiSuriamoorthy/Assignments.git
 
 ### The message says that checkout was successfull
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://github.com/abchiSuriamoorthy/Assignments
+From https://github.com/PreethiSuriamoorthy/Assignments
  * branch            HEAD       -> FETCH_HEAD
 
 ### Print working directory
@@ -70,28 +70,28 @@ $ git commit -m 'checked out from hub and edited the readme file'
 
 ##Push/Checkin the chagnes to Hub
 aaa@bbb ~/documents/DataScience/Assignments (master)
-$ git push https://github.com/abchiSuriamoorthy/Assignments.git
+$ git push https://github.com/PreethiSuriamoorthy/Assignments.git
 fatal: The current branch master has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
-    git push --set-upstream https://github.com/abchiSuriamoorthy/Assignments.g                                                                                                                it master
+    git push --set-upstream https://github.com/PreethiSuriamoorthy/Assignments.g                                                                                                                it master
 
 
 aaa@bbb ~/documents/DataScience/Assignments (master)
-$  git push --set-upstream https://github.com/abchiSuriamoorthy/Assignments.git master
+$  git push --set-upstream https://github.com/PreethiSuriamoorthy/Assignments.git master
 Counting objects: 4, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (4/4), 437 bytes | 0 bytes/s, done.
 Total 4 (delta 0), reused 0 (delta 0)
-To https://github.com/abchiSuriamoorthy/Assignments.git
+To https://github.com/PreethiSuriamoorthy/Assignments.git
    6044b41..e342c66  master -> master
-Branch master set up to track remote branch master from https://github.com/abchiSuriamoorthy/Assignments.git.
+Branch master set up to track remote branch master from https://github.com/PreethiSuriamoorthy/Assignments.git.
 
 ##To Verify that local and HUb are in sync
 aaa@bbb ~/documents/DataScience/Assignments (master)
-$ git pull https://github.com/abchiSuriamoorthy/Assignments.git
-From https://github.com/abchiSuriamoorthy/Assignments
+$ git pull https://github.com/PreethiSuriamoorthy/Assignments.git
+From https://github.com/PreethiSuriamoorthy/Assignments
  * branch            master     -> FETCH_HEAD
 Already up-to-date.
 
